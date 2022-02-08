@@ -4,7 +4,25 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
+   int num1 , num2, total;
+	float avg;
+	
+	printf("Enter first number :");
+	scanf("%d", &num1);
+	
+	printf("Enter first number :");
+	scanf("%d", &num2);
+	 
+	total = num1 + num2;
+	
+	
+	printf("Total is : %d\n", total);
+
+	
+	avg = total / 3;
+	printf("Aveage is : %.2f",avg);
   
   return 0;
 }
